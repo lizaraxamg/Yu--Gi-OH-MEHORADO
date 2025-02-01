@@ -1,0 +1,44 @@
+body{
+    font-family: 'Yugioh', serif;
+    background-image: url(../imagens/imagens/fundo-site.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.cabecalho{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho .titulo{
+    color: #f1ecff;
+
+}
+
+.cartao{
+   background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+
+}
+
+.cartao.selecionado{
+    opacity: 1;
+
+}
+
+.lista-personagens{
+    background-color: blue;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:130px;
+}
